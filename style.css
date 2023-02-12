@@ -1,78 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family: cursive;
 }
 
-header{
-    background-image:url(./design1_image1.jpg);
-    background-size:100%;
+header {
+    background-image: url(./design1_image1.jpg);
+    background-size: 100%;
     min-height: 20vh;
     padding-top: 1rem;
 }
 
-header img{
+header img {
     width: 9rem;
     height: 9rem;
-    background-color:aliceblue;
+    background-color: aliceblue;
     border: 2px solid #000;
     position: relative;
     top: 80px;
     left: 85%;
 }
 
-h1{
-    text-align:justify;
+h1 {
+    text-align: justify;
     font-size: 60px;
 }
 
-h2{
+h2 {
     color: white;
     background-color: #000;
-    text-align:center;
+    text-align: center;
     height: 8vh;
 }
 
-nav{
-    height: 90vh;
-    display: block;
-    position: absolute;
-    left: 5vw;
+main {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
     margin: 2vw;
 }
 
-nav a:hover{
+.a {
+    border: 2px solid cornsilk;
+    display: block;
+    background-color: salmon;
+    width: 15vw;
+    height: 9vh;
+    text-align: center;
+    padding-top: 8px;
+    margin: 5px;
+}
+
+nav a:hover {
     background-color: aqua;
-    color:orange;
+    color: orange;
+    transform: scale(1.2);
 }
 
-.div1{
+
+.div1 {
+    display: inline-block;
+    margin: 2vh;
+    margin-left: 145px;
     position: relative;
-    left: 50vh;
-    margin: 7vh;
+    top: 10vh;
+    border: 3px dotted salmon;
+    padding: 2px 7px 5px 2px;
+
 }
 
-figure img{
-    height:40vh;
+h3 {
+    color: rgb(190, 110, 101);
+    background-color: aqua;
+    margin: 5px;
+}
+
+figure img {
+    height: 40vh;
     width: 40vh;
     position: absolute;
-    left: 135vh;
+    left: 150vh;
     bottom: 5vh;
-    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-.navA{
+.navA {
     min-height: 10vh;
     min-height: 15vw;
     position: absolute;
-    top: 60vh;
-    left: 7vw;
+    top: 50vh;
+    left: 2vw;
 }
 
-.divA{
+.divA {
     margin: 15vh;
     border: 3px dotted salmon;
     width: 40vw;
@@ -80,25 +105,35 @@ figure img{
     left: 20vw;
 }
 
-.h2{
-    color: aquamarine;
-    background-color: antiquewhite;
+.divA article {
+    padding: 2vh;
 }
 
-.figureA img{
+.h2 {
+    color: rgb(190, 110, 101);
+    background-color: aqua;
+}
+
+.figureA img {
     position: absolute;
-    left: 150vh;
+    left: 160vh;
     top: 70vh;
 }
 
-.navC{
+.navC {
     position: absolute;
     left: 5vw;
     top: 55vh;
 }
 
-.divC{
+.divC {
+    width: 25vw;
+    height: 15vh;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
     position: relative;
     top: 20vh;
     left: 35vw;
+    border: 3px dotted salmon;
 }
