@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+header{
+    background-image:url(./design1_image1.jpg);
+    background-size:100%;
+    min-height: 20vh;
+    padding-top: 1rem;
+}
+
+header img{
+    width: 9rem;
+    height: 9rem;
+    background-color:aliceblue;
+    border: 2px solid #000;
+    position: relative;
+    top: 80px;
+    left: 85%;
+}
+
+h1{
+    text-align:justify;
+    font-size: 60px;
+}
+
+h2{
+    color: white;
+    background-color: #000;
+    text-align:center;
+    height: 8vh;
+}
+
+nav{
+    height: 90vh;
+    display: block;
+    position: absolute;
+    left: 5vw;
+    margin: 2vw;
+}
+
+nav a:hover{
+    background-color: aqua;
+    color:orange;
+}
+
+section{
+    position: relative;
+    left: 50vh;
+    margin: 7vh;
+}
+
+figure img{
+    height:40vh;
+    width: 40vh;
+    position: absolute;
+    left: 135vh;
+    bottom: 5vh;
+    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.navA{
+    min-height: 10vh;
+    min-height: 15vw;
+    position: absolute;
+    top: 60vh;
+    left: 7vw;
+}
+
+.divA{
+    margin: 15vh;
+    border: 3px dotted salmon;
+    width: 40vw;
+    position: relative;
+    left: 20vw;
+}
+
+.h2{
+    color: aquamarine;
+    background-color: antiquewhite;
+}
+
+.figureA img{
+    position: absolute;
+    left: 150vh;
+    top: 70vh;
+}
+
+.navC{
+    position: absolute;
+    left: 5vw;
+    top: 55vh;
+}
+
+.divC{
+    position: relative;
+    top: 20vh;
+    left: 35vw;
+}
