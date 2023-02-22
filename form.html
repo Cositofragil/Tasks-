@@ -6,165 +6,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="shortcut icon" href="./recursos/Logo-Mighty-ducks-01.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/Logo-Mighty-ducks-01.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
         <h1>Mighty Ducks Hockey League</h1>
-        <img src="./recursos/Logo-Mighty-ducks-01.png" alt="logo MDHL">
+        <img src="./assets/Logo-Mighty-ducks-01.png" alt="logo MDHL">
         <h2 class="h2f">Registration Form</h2>
     </header>
-    <nav>
-        <a class="a" href="./index.html">Home</a>
-        <a class="a" href="./about-MDHL.html">About </a>
-        <a class="a" href="./contact.html">Contact</a>
-        <a class="a" href="./rules-policies.html">Rules & Policies</a>
-        <a class="a" href="./information.html">Game Information</a>
-        <a class="a" href="#">Registration Form</a>
-    </nav>
-    <main>
-        <form action="./show-data.html">
-            <fieldset>
-                <legend>Form</legend>
-                <label>Player's First Name:
-                    <input type="text" name="nombre">
-                </label>
-                <label>Last Name:
-                    <input type="text" name="apellido">
-                </label>
-                <label>Street Address:
-                    <input type="text" name="direccion">
-                </label>
-                <label>City:
-                    <input type="text" name="ciudad">
-                </label>
-                <label>Zip Code:
-                    <input type="number" name="codigo-postal" max="9999">
-                </label>
-                <label class="bd">Birth Date(mm/dd/yyyy):
-                    <input type="date" name="fecha-nacimiento" class="date">
-                </label>
-                <p class="pf">Gender:</p>
-                <label>
-                    Female
-                    <input type="radio" name="genero" value="fem">
-                </label>
-                <label>
-                    Male
-                    <input type="radio" name="genero" value="masc">
-                </label>
-                <p class="pf">Grade:</p>
-                <label>
-                    Pre-School
-                    <input type="radio" name="grado" value="pre-sc">
-                </label>
-                <label>
-                    1<sup>st</sup>
-                    <input type="radio" name="grado" value="1">
-                </label>
-                <label>
-                    2<sup>nd</sup>
-                    <input type="radio" name="grado" value="2">
-                </label>
-                <label>
-                    3<sup>rd</sup>
-                    <input type="radio" name="grado" value="3">
-                </label>
-                <label>
-                    4<sup>th</sup>
-                    <input type="radio" name="grado" value="4">
-                </label>
-                <label>
-                    5<sup>th</sup>
-                    <input type="radio" name="grado" value="5">
-                </label>
-            </fieldset>
-            <fieldset class="f2">
-                <legend>Which elementary school do you live near?</legend>
-                <p>Closest School:</p>
-                <label>
-                    AJ Katzenmaier
-                    <input type="radio" name="colegio" value="AJK">
-                </label>
-                <label>
-                    Greenbay
-                    <input type="radio" name="colegio" value="Gb">
-                </label>
-                <label>
-                    Howard A Yeager
-                    <input type="radio" name="colegio" value="HaY">
-                </label>
-                <label>
-                    Marjorie P Hart
-                    <input type="radio" name="colegio" value="MpH">
-                </label>
-                <label>
-                    North Elementary
-                    <input type="radio" name="colegio" value="Ne">
-                </label>
-                <label>
-                    South Elementary
-                    <input type="radio" name="colegio" value="Se">
-                </label>
-            </fieldset>
-            <fieldset class="f3">
-                <legend>What position(s) do you normally play? (check all that apply)</legend>
-                <label>
-                    Forward
-                    <input type="checkbox" name="posicion" value="forw">
-                </label>
-                <label>
-                    Defense
-                    <input type="checkbox" name="posicion" value="def">
-                </label>
-                <label>
-                    Midfield
-                    <input type="checkbox" name="posicion" value="mid">
-                </label>
-                <label>
-                    Goalkeeper
-                    <input type="checkbox" name="posicion" value="goalk">
-                </label>
-            </fieldset>
-            <fieldset class="f5">
-                <label class="uniform">Uniform Size:
-                    <select name="talle">
-                        <option disabled selected>select Size</option>
-                        <option value="YS">Youth Small</option>
-                        <option class="YM">Youth Medium</option>
-                        <option value="YL">Youth Large</option>
-                        <option value="S">Small</option>
-                        <option value="M">Medium</option>
-                        <option value="L">Large</option>
-                        <option value="XL">Extra-Large</option>
-                    </select>
-                </label>
-            </fieldset>
-            <fieldset class="f6">
-                <legend>Permission to Play</legend>
-                <p>I, parent or guardian of the minor registrant, agree that the registrant and i will abide by all the
-                    rules of the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of phisical injury
-                    associated with hockey and in consideration for the "League" accepting the registrant for its hockey
-                    programs and activities, i hereby release, discharge, and/or otherwise indemnify MDHL, their
-                    employees and associated personnel and volunteers, including the facilities used for practices and
-                    games, against any claim by ir behalf of the registrant as a result of the registrant's
-                    participation in the programand/orbeing transported to or from MDHL sponsored activities, which
-                    transportation.
-                    By signing below, i herebyagree andauthorizethe above. In addition, ny signing below, i also
-                    acknowledge that i have read the cancellation policy and agree to its terms.
-                </p>
-                <label>Parent/GuardianSignature:
-                    <input type="text" name="firma">
-                </label>
-                <label>Date:
-                    <input type="date" name="fecha">
-                </label>
-            </fieldset>
-            <button>Enviar</button>
-        </form>
-    </main>
+    <div class="container4">
+        <nav>
+            <a class="a" href="./index.html">Home</a>
+            <a class="a" href="./about-MDHL.html">About </a>
+            <a class="a" href="./contact.html">Contact</a>
+            <a class="a" href="./rules-policies.html">Rules & Policies</a>
+            <a class="a" href="./information.html">Game Information</a>
+            <a class="a" href="#">Registration Form</a>
+        </nav>
+        <main>
+            <form action="./show-data.html">
+                <fieldset>
+                    <legend>Form</legend>
+                    <label>Player's First Name:
+                        <input type="text" name="nombre">
+                    </label>
+                    <label>Last Name:
+                        <input type="text" name="apellido">
+                    </label>
+                    <label>Street Address:
+                        <input type="text" name="direccion">
+                    </label>
+                    <label>City:
+                        <input type="text" name="ciudad">
+                    </label>
+                    <label>Zip Code:
+                        <input type="number" name="codigo-postal" max="9999">
+                    </label>
+                    <label class="bd">Birth Date(mm/dd/yyyy):
+                        <input type="date" name="fecha-nacimiento" class="date">
+                    </label>
+                    <p class="pf">Gender:</p>
+                    <label>
+                        Female
+                        <input type="radio" name="genero" value="fem">
+                    </label>
+                    <label>
+                        Male
+                        <input type="radio" name="genero" value="masc">
+                    </label>
+                    <p class="pf">Grade:</p>
+                    <label>
+                        Pre-School
+                        <input type="radio" name="grado" value="pre-sc">
+                    </label>
+                    <label>
+                        1<sup>st</sup>
+                        <input type="radio" name="grado" value="1">
+                    </label>
+                    <label>
+                        2<sup>nd</sup>
+                        <input type="radio" name="grado" value="2">
+                    </label>
+                    <label>
+                        3<sup>rd</sup>
+                        <input type="radio" name="grado" value="3">
+                    </label>
+                    <label>
+                        4<sup>th</sup>
+                        <input type="radio" name="grado" value="4">
+                    </label>
+                    <label>
+                        5<sup>th</sup>
+                        <input type="radio" name="grado" value="5">
+                    </label>
+                </fieldset>
+                <fieldset class="f2">
+                    <legend>Which elementary school do you live near?</legend>
+                    <p>Closest School:</p>
+                    <label>
+                        AJ Katzenmaier
+                        <input type="radio" name="colegio" value="AJK">
+                    </label>
+                    <label>
+                        Greenbay
+                        <input type="radio" name="colegio" value="Gb">
+                    </label>
+                    <label>
+                        Howard A Yeager
+                        <input type="radio" name="colegio" value="HaY">
+                    </label>
+                    <label>
+                        Marjorie P Hart
+                        <input type="radio" name="colegio" value="MpH">
+                    </label>
+                    <label>
+                        North Elementary
+                        <input type="radio" name="colegio" value="Ne">
+                    </label>
+                    <label>
+                        South Elementary
+                        <input type="radio" name="colegio" value="Se">
+                    </label>
+                </fieldset>
+                <fieldset class="f3">
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+                    <label>
+                        Forward
+                        <input type="checkbox" name="posicion" value="forw">
+                    </label>
+                    <label>
+                        Defense
+                        <input type="checkbox" name="posicion" value="def">
+                    </label>
+                    <label>
+                        Midfield
+                        <input type="checkbox" name="posicion" value="mid">
+                    </label>
+                    <label>
+                        Goalkeeper
+                        <input type="checkbox" name="posicion" value="goalk">
+                    </label>
+                </fieldset>
+                <fieldset class="f5">
+                    <label class="uniform">Uniform Size:
+                        <select name="talle">
+                            <option disabled selected>select Size</option>
+                            <option value="YS">Youth Small</option>
+                            <option class="YM">Youth Medium</option>
+                            <option value="YL">Youth Large</option>
+                            <option value="S">Small</option>
+                            <option value="M">Medium</option>
+                            <option value="L">Large</option>
+                            <option value="XL">Extra-Large</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset class="f6">
+                    <legend>Permission to Play</legend>
+                    <p>I, parent or guardian of the minor registrant, agree that the registrant and i will abide by all the
+                        rules of the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of phisical injury
+                        associated with hockey and in consideration for the "League" accepting the registrant for its hockey
+                        programs and activities, i hereby release, discharge, and/or otherwise indemnify MDHL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and
+                        games, against any claim by ir behalf of the registrant as a result of the registrant's
+                        participation in the programand/orbeing transported to or from MDHL sponsored activities, which
+                        transportation.
+                        By signing below, i herebyagree andauthorizethe above. In addition, ny signing below, i also
+                        acknowledge that i have read the cancellation policy and agree to its terms.
+                    </p>
+                    <label>Parent/GuardianSignature:
+                        <input type="text" name="firma">
+                    </label>
+                    <label>Date:
+                        <input type="date" name="fecha">
+                    </label>
+                </fieldset>
+                <button>Enviar</button>
+            </form>
+        </main>
+    </div>
 </body>
 
 </html>
